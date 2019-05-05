@@ -1,3 +1,14 @@
+# Conceptos
+
+- Software:
+- Firmware:
+- Hardware:
+- Shield:
+
+## Palabras clave (keywords)
+
+
+
 # Introducción y Justificación.
 
 ## Contextualizacion
@@ -25,11 +36,6 @@ Es aquí donde se presenta la propuesta de enseñanza, descubrir cómo funcionan
 	* Presentacion del problema
 	* Tendencias actuales
 	* Necesidad de dar más importancia a la programación y a las nuevas tendencias tecnológicas
-
-[1]: https://www.letraslibres.com/espana-mexico/revista/la-nueva-era-la-revolucion-las-maquinas
-[2]: https://www.elconfidencial.com/alma-corazon-vida/2019-04-10/andres-oppenheimer-trabajo-robots-inteligencia_1930542/
-[3]: https://elpais.com/elpais/2019/03/22/eps/1553279261_790802.html
-[4]: https://computerhoy.com/noticias/tecnologia/ya-quiosco-numero-535-computer-hoy-395523
 
 ## Detección de la problemática (Porqué me he decantado por este problema)
 
@@ -63,6 +69,60 @@ Es por ello que se busca plantear una mejora en la didáctica, de forma teórica
 
 # Estado del arte (principalmente didáctico)  ¡¡ guardar referencias !!
 
+> Pregunta: En que orden poner los apartados, tal como están, o pongo "educacion actual" despues de arduino y antes de shield???
+
+## Educación actual
+
+	- Programación y la educación
+		[7] Ejemplo de proyecto semaforo oficial por la junta de educacion de Galicia
+	- Realmente Arduino mejora la educacion ?
+		[X] 3 PDF que lo demuestran
+	- Hay otras alternativas ?
+		- si ! las shield ☺
+
+## Arduino
+
+**¿Qué es Arduino?**
+
+Según la página oficial [6], _Arduino_ es una plataforma electrónica cuyo código fuente está abierto, con el fin de ofrecer un uso conjunto de Software y Hardware de manera sencilla. Esta placa electrónica tiene la capacidad de leer entrada de datos, desde algo tan simple como una señal digital que es activada cuando se pulsa un botón, como una señal analógica con 1024 puntos de precisión en un sensor de luz, hasta recibir un mensaje de Twitter; y provocar una salida programada o en respuesta a esta entrada también con una señal digital o analógica que nos permite encender y apagar un motor o un LED variando su intensidad, o publicar un contenido en una plataforma online.
+
+Estos comportamientos pueden ser programados sin necesidad de ningún componente extra, como suele ser común en la programación de microcontroladores la necesidad de un dispositivo programador que cargue el Firmware. Arduino ya incorpora en la propia placa un programador, y tan solo conectándolo a un ordenador podremos, de manera muy sencilla, definir estos patrones de entrada y salida en el microcontrolador, en definitiva, decir qué hacer a través del entorno de desarrollo de Arduino y otros programas más sencillos que lo gestionan.
+
+**¿Por qué Arduino?**
+
+Arduino nació de la idea de diseñar una herramienta para la construcción de prototipos de manera rápida y sencilla, orientado, principalmente, para estudiantes que no tuvieran experiencia en electrónica ni programación. Tan pronto como el equipo que lo desarrollaba comenzó a crecer, Arduino empezó a sufrir cambios para adaptarse a nuevos retos y proyectos.
+
+Todas las placas Arduino son completamente de código abierto, lo que permite a los usuarios adaptarlas a sus necesidades particulares. El software también es de código abierto y está creciendo a través de las contribuciones de los usuarios de todo el mundo. Todo este conjunto han dado lugar a la gran cantidad de recursos disponibles de forma gratuita y totalmente accesible.
+
+El hecho de que Arduino sea de código abierto, ha permitido que se expanda con gran rapidez, tanto a nivel de desarrollo, como a nivel comercial, pues debido a esta condición, los precios de este dispositivo y sus componentes son muy bajos. Y aunque originalmente surgió con intenciones didácticas y de investigación, actualmente lo utilizan todo tipo de personas en diferentes ámbitos: educativo, arte, programación, profesional o sólo por entretenimiento.
+
+	- Que es Arduino
+		Arduino is an open-source electronics platform based on easy-to-use hardware and software. It's intended for anyone making interactive projects. [6]
+	- Por qué Arduino
+		- Beneficios de Arduino
+		- Ya veremos otros competidores (al final contra el Espduino)
+
+## Shields
+
+**¿Qué es una Shield?**
+
+Una _shield_ es un circuito modular que se monta encima de otros circuitos, cuentan con el número de pines exactos de los que posee Arduino, distribuidos en las mimas posiciones, de manera que encajan a la perfección formando un solo bloque, tapando la parte superior del microcontrolador. Este módulo complejo suele ir orientado a una finalidad concreta, existen muchos tipos de shield `(*) Enumerar y mostrar imágenes` aportando una funcionalidad extra. [8]
+
+Existen shield que tienen una funcionalidad única muy concreta `pantalla LCD, Simon dice, Comunicaciones, etc...`, otras en cambio, las llamadas Shield multifunción, están preparadas como un banco de pruebas, con múltiples funcionalidades y componentes de diversos tipos. `Mostrar shield multifuncion`.
+
+Buscando un objetivo didáctico generalizado, en el que probar muchos tipos de actuadores y sensores, estas shield multifunción aportan mucho valor al trabajo, el cual se centrará en la _Open Smart Rich Shield_ que tiene un buen aspecto visual y se compone de sensores y actuadores de sencillo pero de muy extendido uso, como pueden ser botones, pantallas, LED, altavoz Buzzer o un sensor de luz.
+
+
+	- Que son las Shield de arduino
+	- Que tipos hay
+	- Funcionalidad nos aporta
+
+## Similares propuestas
+
+	
+
+	- La practica de programacion con la otra shield
+
 	- Tendencias actuales (TIC, robotica, digitalización) : Referenciar noticias actuales
 		- Igual reescribir la motivación y poner eso aqui, dependiendoq ue se encuentre, quizá aqui más en el entorno educativo
 	- Metodo de enseñanza: gamificacion
@@ -91,7 +151,7 @@ En la asignatura de Tecnología de 2º y 3º de la ESO se encuentran dos bloques
 
 > Bloque 6. Tecnologías de Información y la Comunicación.
 
-Analizando los contenidos de dichos bloques, se puede realizar un símil en relación a los contenidos que conciernen a este trabajo. En el bloque 5 se busca enseñar las bases de la programación: qué es un programa, qué son instrucciones, qué son los elementos de control, etc. para posteriormente, en el bloque 6, tener un ligero conocimiento de cómo funcionan las herramientas que se van a utilizar. Entre ellas, entra en contenido los periféricos, que podemos entender como unos dispositivos que intercambian información entre PC y perifericos frente a una actividad por parte de uno de los extremos. Que es, en un contexto distinto, lo que entendemos como sensores y actuadores.
+Analizando los contenidos de dichos bloques, se puede realizar un símil en relación a los contenidos que conciernen a este trabajo. En el bloque 5 se busca enseñar las bases de la programación: qué es un programa, qué son instrucciones, qué son los elementos de control, etc. para posteriormente, en el bloque 6, tener un ligero conocimiento de cómo funcionan las herramientas que se van a utilizar. Entre ellas, entra en contenido los periféricos, que podemos entender como unos dispositivos que intercambian información entre PC y periféricos frente a una actividad por parte de uno de los extremos. Que es, en un contexto distinto, lo que entendemos como sensores y actuadores.
 
 Buscando afianzar mejor estos términos, y llevar un poco más allá los conocimientos, buscamos desarrollar una parte del programa del bloque 5:
 
@@ -103,14 +163,12 @@ Se busca por tanto, mejorar el aprendizaje de los alumnos sobre programación y 
 	- Mejorar en el alumno el aprendizaje de la programación
 		* Porque el bloque es orientado a programación y sensores, no a circuitos
 
-
-[5]: Orden 14/2016 BOJA https://www.adideandalucia.es/normas/ordenes/Orden14julio2016CurriculoESO.pdf
-
 # Preguntas de investigación.
 
 	- ¿Cómo facilitar el aprendizaje de la programación?
-	- ¿Cómo motivar e interesar por la eletrónica?
+	- ¿Cómo motivar e interesar por la electrónica?
 	- ¿Cómo explicar sensores y actuadores?
+	- ¿Qué herramientas tenemos disponibles?
 
 # Objetivos.
 
@@ -137,7 +195,7 @@ Se busca por tanto, mejorar el aprendizaje de los alumnos sobre programación y 
 		- Qué hemos buscado, qué tema trata
 		- Tiempo durante el que se ha realizado la observación
 		- Qué preguntas buscamos resolver
-		- Curso de la investigacion
+		- Curso de la investigación
 			- Donde se ha buscado
 			- Qué se ha encontrado
 			- Cómo se ha seleccionado
@@ -188,7 +246,7 @@ Se busca por tanto, mejorar el aprendizaje de los alumnos sobre programación y 
 
 ## Evaluación: criterios e indicadores de la valoración de los aprendizajes de los alumnos
 
-	- Procedimientos de evaluacion
+	- Procedimientos de evaluación
 	- Herramientas de evaluación
 
 # Presentación y discusión de los resultados.
@@ -196,9 +254,33 @@ Se busca por tanto, mejorar el aprendizaje de los alumnos sobre programación y 
 	- Todo de manera empírica
 	- Resultados temporales hipotéticos (cuanto ahorramos en tiempo para la programacion quitando el circuito)
 
+## ¿Es Arduino la única solución?
+
+	- A lo largo del trabajo, hemos ido defendiendo la idea de la shield trabajando junto con arduino, pero ¿es Arduino un requisito para trabajar con estas shield? La respuesta es no, y cada vez lo será menos pues van apareciendo otras alternativas, con distintas características que se adaptan a las nuevas tendencias tecnológicas.
+
+	- En los primeros apartados del trabajo, en el estado del arte, se han mostrado unas pinceladas de las nuevas corrientes tecnológicas, todas confluyen bajo un mismo concepto, las comunicaciones entre distintos dispositivos. Se habla de domótica, Internet of Things (IoT), SmartCities, Industria 4.0; Todas estas tendencias se resumen a dispositivos comunicados entre sí, cuya única diferencia es el contexto y su finalidad, pero con sus 3 elementos básicos: Comunicación, sensorización (recogida de datos) y actuación ().
+
+	- He aqui donde aparece Espduino, una alternativa a Arduino que ha sido diseñada y adaptada para ser utilizado con la misma simplicidad, y que aporta, de base, las comunicaciones WiFi y Bluetooh. Esta nueva placa funciona con el microcontrolador ESP-32.
+
+## Conclusiones finales
+
+	- Dividir el trabajo de circuito y programación, esta shield es una idea de como poder centrarse en sólo la programación, pero existen otras alternativas. Se podría diseñar un proyecto completo, en el cual, en el bloque de circuito electrónicos crear una propia shield o modulo, en el cual preparar los componentes en una base y dejar los cables sueltos, listos para conectar en la sesión de programación.
+
+	- En definitiva, se persigue conseguir focalizar la atención cada vez en un concepto concreto, bien el circuito o cableado, y una vez se realice, proseguir con la programación.
+
+	- Combinando esto con robótica e impresión 3D, habrá una asignatura muy completa que impartir, en la que los alumnos no sólo aprenderán nuevas formas de pensar y nuevos conceptos y contenidos, sino que realizarán algo práctico, sencillo y que asombrará a cualquier persona que piense que un proyecto de este ámbito lo ha realizado un alumno de educación secundaria.
+
 # Referencias (tanto articulos como videos ...)
 
-
+[1]: https://www.letraslibres.com/espana-mexico/revista/la-nueva-era-la-revolucion-las-maquinas
+[2]: https://www.elconfidencial.com/alma-corazon-vida/2019-04-10/andres-oppenheimer-trabajo-robots-inteligencia_1930542/
+[3]: https://elpais.com/elpais/2019/03/22/eps/1553279261_790802.html
+[4]: https://computerhoy.com/noticias/tecnologia/ya-quiosco-numero-535-computer-hoy-395523
+[5]: https://www.adideandalucia.es/normas/ordenes/Orden14julio2016CurriculoESO.pdf
+[6]: https://www.arduino.cc
+[7]: http://www.edu.xunta.gal/eduga/1236/proxeccions/programacion-visual-para-arduino-aplicacion-na-aula-tecnoloxia
+[8]: https://aprendiendoarduino.wordpress.com/2015/03/23/shields-para-arduino/
 
 # Bibliografía (libros/articulos/videos no referenciados)
 
+[100]: https://aprendiendoarduino.wordpress.com/
