@@ -12,6 +12,8 @@
 	- No he podido aplicarlo al TFM tipo B por la falta de tiempo (trimestre corto), pero se propone como tipo C
 	- Tras una investigacion didactica y analisis DAFO, hacer una propuesta de mejora
 
+	- Sobretodo me centro en el bloque 5 de Tecnología de 3 ESO
+
 ## Ideas de la presentacion
 
 - Realmente se ha detectado un problema:
@@ -21,3 +23,7 @@
 
 - Propuesta de actividad en el colegio, con un servo motor, realizar la lógica de un aspersor y al profesor le gustó
 	- Lo más interesante de estas actividades es que descubran el funcionamiento interno de un sistema, cuál es el ciclo lógico de un semáforo, cómo se comporta un aspersor, y podríamos seguir inventando otros usos.
+
+- Mostrar comparativa de Software de desarrollo de Arduino
+- Mostrar comparativa de Arduino y Espduino
+- Mostrar comparativa de Shield con otras Shields

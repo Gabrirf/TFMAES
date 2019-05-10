@@ -121,7 +121,7 @@ Buscando un objetivo didáctico generalizado, en el que probar muchos tipos de a
 
 	
 
-	- La practica de programacion con la otra shield
+	- La practica de programacion con la otra shield, comparativa y porque es mejor la Open Smart Rich Shield
 
 	- Tendencias actuales (TIC, robotica, digitalización) : Referenciar noticias actuales
 		- Igual reescribir la motivación y poner eso aqui, dependiendoq ue se encuentre, quizá aqui más en el entorno educativo
@@ -169,6 +169,9 @@ Se busca por tanto, mejorar el aprendizaje de los alumnos sobre programación y 
 	- ¿Cómo motivar e interesar por la electrónica?
 	- ¿Cómo explicar sensores y actuadores?
 	- ¿Qué herramientas tenemos disponibles?
+		- Componentes sueltos
+		- Modulos
+		- Shield Multifunción
 
 # Objetivos.
 
@@ -185,6 +188,28 @@ Se busca por tanto, mejorar el aprendizaje de los alumnos sobre programación y 
 	- Qué es programación 
 
 # Metodología y desarrollo de la investigación.
+
+La idea y desarrollo de esta investigación comienza en la realización de las prácticas asociadas a los estudios referentes a este Trabajo Fin de Máster, en las cuales se detectaron ciertas oportunidades de mejoras en la metodología didáctica que se aplicaba. Esta mejora se centra en eliminar aquellas dificultades que no forman parte del contenido del bloque a impartir, y que limitan a los alumnos a centrarse en la parte que se quiere enseñar.
+
+Este bloque es el ya especificado en el apartado de objeto de estudio de este mismo documento, cuyo programa cual comprende los contenidos de:
+
+- Programación gráfica por bloques de instrucciones.
+- Entorno de programación.
+- Bloques de programación.
+- Control de flujo de programa.
+- Interacción con el usuario y entre objetos.
+- Introducción a los sistemas automáticos cotidianos: sensores, elementos de control y actuadores.
+- Control programado de automatismos sencillos.
+
+Una vez el problema ha sido detectado, se procede a realizar un estudio de la situación actual, esto es, buscar la situación actual de la educación y las últimas tendencias tecnológicas a través de noticias y artículos de investigación recientes.
+
+En este paso, se han encontrado noticias de los últimos avances en robótica y artículos que detallan cómo Arduino ha demostrado mejorar los resultados académicos en secundaria y la universidad `referenciar artículos`. Esto demuestra por un lado, la necesidad de dar a conocer estos conocimientos, y por otro lado, la viabilidad de aplicar esta enseñanza con la herramienta Arduino.
+
+Una vez en claro qué enseñar y cómo enseñarlo, se pasa a buscar soluciones a las debilidades actuales de esta enseñanza, a través de diferentes metodologías y herramientas que usar. Con esta búsqueda se encuentra los componentes llamados "shield" o escudos, que aportan el punto clave a esta dificultad: eliminar el montaje del circuito electrónico en la programación con Arduino. Y el estudio pasa a buscar qué tipos de shield existen y cuáles son de interés didáctico, encontrando así, las shield multifunción, que montan muchos y diversos componentes en un solo módulo compacto y de sencillo uso.
+
+Con este hallazgo concluímos el periodo
+
+
 
 	8.1 Breve justificación y por donde empezar
 		- Diagrama de flujo 
@@ -218,6 +243,9 @@ Se busca por tanto, mejorar el aprendizaje de los alumnos sobre programación y 
 - **CPAA**: Competencia Para Aprender a Aprender.
 - **CSC**: Competencia Social y Cívica. **???**
 - **SIE**: Sentido de la Iniciativa y espíritu Emprendedor.
+- CAA
+- CCL
+- SIEP
 
 
 ## Objetivos: 
@@ -245,6 +273,13 @@ Se busca por tanto, mejorar el aprendizaje de los alumnos sobre programación y 
 	- Organización de espacio y tiempo: se recomienda indicar los aspectos concretos relacionados con la organización del espacio y el tiempo que requiere la unidad didáctica.
 
 ## Evaluación: criterios e indicadores de la valoración de los aprendizajes de los alumnos
+
+**Criterios de evaluación** Según el BOJA
+
+1. Conocer y manejar un entorno de programación distinguiendo sus partes más importantes y adquirir las habilidades y los conocimientos necesarios para elaborar programas informáticos sencillos utilizando programación gráfica por bloques de instrucciones. CD, CMCT, CAA, CCL, SIEP.
+2. Analizar un problema y elaborar un diagrama de flujo y programa que lo solucione. CMCT, CD, SIEP, CAA.
+3. Identificar sistemas automáticos de uso cotidiano. Comprender y describir su funcionamiento. CMCT, CD, SIEP, CAA, CCL.
+4. Elaborar un programa estructurado para el control de un prototipo. CMCT, CD, SIEP. CAA
 
 	- Procedimientos de evaluación
 	- Herramientas de evaluación
