@@ -1,3 +1,9 @@
+---
+author: Gabriel Rodríguez Flores
+header-includes: 
+	- \usepackage[spanish]{babel}
+---
+
 # Conceptos
 
 - Software:
@@ -78,13 +84,15 @@ Es por ello que se busca plantear una mejora en la didáctica, de forma teórica
 	- Realmente Arduino mejora la educacion ?
 		[X] 3 PDF que lo demuestran
 	- Hay otras alternativas ?
-		- si ! las shield ☺
+		- si ! las shield
 
 ## Arduino
 
 **¿Qué es Arduino?**
 
 Según la página oficial [6], _Arduino_ es una plataforma electrónica cuyo código fuente está abierto, con el fin de ofrecer un uso conjunto de Software y Hardware de manera sencilla. Esta placa electrónica tiene la capacidad de leer entrada de datos, desde algo tan simple como una señal digital que es activada cuando se pulsa un botón, como una señal analógica con 1024 puntos de precisión en un sensor de luz, hasta recibir un mensaje de Twitter; y provocar una salida programada o en respuesta a esta entrada también con una señal digital o analógica que nos permite encender y apagar un motor o un LED variando su intensidad, o publicar un contenido en una plataforma online.
+
+![Imagen de Arduino](https://picsum.photos/200)
 
 Estos comportamientos pueden ser programados sin necesidad de ningún componente extra, como suele ser común en la programación de microcontroladores la necesidad de un dispositivo programador que cargue el Firmware. Arduino ya incorpora en la propia placa un programador, y tan solo conectándolo a un ordenador podremos, de manera muy sencilla, definir estos patrones de entrada y salida en el microcontrolador, en definitiva, decir qué hacer a través del entorno de desarrollo de Arduino y otros programas más sencillos que lo gestionan.
 
@@ -108,6 +116,11 @@ El hecho de que Arduino sea de código abierto, ha permitido que se expanda con 
 
 Una _shield_ es un circuito modular que se monta encima de otros circuitos, cuentan con el número de pines exactos de los que posee Arduino, distribuidos en las mimas posiciones, de manera que encajan a la perfección formando un solo bloque, tapando la parte superior del microcontrolador. Este módulo complejo suele ir orientado a una finalidad concreta, existen muchos tipos de shield `(*) Enumerar y mostrar imágenes` aportando una funcionalidad extra. [8]
 
+![Shield 1](https://picsum.photos/200)
+![Shield 2](https://picsum.photos/200)
+![Shield 3](https://picsum.photos/200)
+![Shield 4](https://picsum.photos/200)
+
 Existen shield que tienen una funcionalidad única muy concreta `pantalla LCD, Simon dice, Comunicaciones, etc...`, otras en cambio, las llamadas Shield multifunción, están preparadas como un banco de pruebas, con múltiples funcionalidades y componentes de diversos tipos. `Mostrar shield multifuncion`.
 
 Buscando un objetivo didáctico generalizado, en el que probar muchos tipos de actuadores y sensores, estas shield multifunción aportan mucho valor al trabajo, el cual se centrará en la _Open Smart Rich Shield_ que tiene un buen aspecto visual y se compone de sensores y actuadores de sencillo pero de muy extendido uso, como pueden ser botones, pantallas, LED, altavoz Buzzer o un sensor de luz.
@@ -119,8 +132,7 @@ Buscando un objetivo didáctico generalizado, en el que probar muchos tipos de a
 
 ## Similares propuestas
 
-	
-
+	- TFG
 	- La practica de programacion con la otra shield, comparativa y porque es mejor la Open Smart Rich Shield
 
 	- Tendencias actuales (TIC, robotica, digitalización) : Referenciar noticias actuales
@@ -207,7 +219,7 @@ En este paso, se han encontrado noticias de los últimos avances en robótica y 
 
 Una vez en claro qué enseñar y cómo enseñarlo, se pasa a buscar soluciones a las debilidades actuales de esta enseñanza, a través de diferentes metodologías y herramientas que usar. Con esta búsqueda se encuentra los componentes llamados "shield" o escudos, que aportan el punto clave a esta dificultad: eliminar el montaje del circuito electrónico en la programación con Arduino. Y el estudio pasa a buscar qué tipos de shield existen y cuáles son de interés didáctico, encontrando así, las shield multifunción, que montan muchos y diversos componentes en un solo módulo compacto y de sencillo uso.
 
-Con este hallazgo concluímos el periodo
+Con este hallazgo concluímos el periodo ...
 
 
 
@@ -236,21 +248,63 @@ Con este hallazgo concluímos el periodo
 
 ## Temporización:
 
+	- 2 bloques por trimestre --> 1 mes y medio (Medio trimestre)
+
 ## Competencias
 
+- **CCL** Comunicación lingüística.
+	- Leer, interpretar y redactar informes y documentos técnicos.
+	- Adquirir el vocabulario específico del área.
+	- Exponer en público los trabajos desarrollados
 - **CMCT**: Competencia Matemática y competencias básicas en Ciencia y Tecnología.
+	- Conocer y manejar objetos, procesos, sistemas y entornos tecnológicos,
+	- Resolver problemas en los que sea preciso aplicar expresiones matemáticas, referidas a principios y fenómenos físicos, que resuelven problemas prácticos del mundo material.
+	- Medir y calcular magnitudes básicas, empleando rigurosamente el lenguaje matemático.
+	- Leer e interpretar gráficos empleando con rigurosidad el lenguaje matemático.
+	- Utilizar escalas.
+	- Analizar objetos y sistemas técnicos
 - **CD**: Competencia Digital.
-- **CPAA**: Competencia Para Aprender a Aprender.
-- **CSC**: Competencia Social y Cívica. **???**
-- **SIE**: Sentido de la Iniciativa y espíritu Emprendedor.
-- CAA
-- CCL
-- SIEP
+	- Procesar, elaborar, almacenar, compartir, publicar y presentar información, empleando diversas herramientas informáticas como Internet, calculadoras científicas o gráficas, ordenadores, programas informáticos, etc., que permitan calcular, representar gráficamente, hacer tablas, procesar textos, simular modelos, etc.
+	- Utilizar los medios interactivos de forma responsable.
+	- Trabajar con entornos de programación analizando, modificando y ejecutando programas.
+	- Resolver problemas empleando sistemas digitales.
+	- Analizar características y funcionalidades de los sistemas de comunicación digitales actuales.
+- **CAA**: Competencia Aprender a Aprender.
+	- Resolver problemas tecnológicos empleando el método de proyectos: buscando y seleccionando información, desarrollando ideas, planificando y ejecutando un proyecto, evaluándolo y aportando propuestas de mejora.
+	- Tener iniciativa en la toma de decisiones, espíritu de superación, perseverancia ante las dificultades, autonomía y autocrítica.
+	- Razonar y buscar respuestas de forma autónoma ante diversas situaciones.
+	- Ser consciente de los conocimientos obtenidos a través de la autoevaluación.
+- **CSC**: Competencia Social y Cívica.
+	- Trabajar en equipo: Discutiendo ideas y razonamientos, escuchando a los demás y gestionando conflictos, adoptando actitudes de respeto y tolerancia.
+	- Analizar el impacto del desarrollo tecnológico y su influencia en los cambios económicos y de organización social que han tenido lugar a lo largo de la historia de la humanidad.
+	- Valorar el uso responsable de los recursos naturales.
+	- Fomentar actitudes responsables de consumo nacional.
+- **SIEP**: Sentido de la Iniciativa y espíritu Emprendedor.
+	- Resolver problemas tecnológicos en los proyectos, teniendo iniciativa en la toma de decisiones, espíritu de superación, perseverancia ante las dificultades, autonomía y autocrítica.
+- **CEC**: Conciencia y expresiones culturales. 
+	- Valorar el aspecto estético, la elección y tratamiento de materiales en el desarrollo de proyectos que impliquen el diseño y construcción de objetos y en aquellas actividades de investigación que permiten conocer cómo han contribuido las ciencias y la tecnología al desarrollo del patrimonio industrial, cultural y artístico de la humanidad, y en especial al de nuestra comunidad.
 
-
-## Objetivos: 
+## Objetivos de etapa
 
 	- establecer los objetivos didácticos para ver lo que los alumnos van a adquirir con esta unidad.
+
+### Objetivos generales
+
+	- Preguntar a Tutora
+
+### Objetivos generales del área de tecnología
+
+	- Preguntar a Tutora
+
+### Objetivos específicos de la tecnología de 3º ESO
+
+	- Preguntar a Tutora
+
+### Objetivos específicos de la unidad didáctica
+
+1. Instalar y configurar un dispositivo en un ordenador.
+2. Aprender a cargar un programa en Arduino.
+3. Identificar componentes de una placa electrónica.
 
 ## Contenidos de aprendizaje: 
 
@@ -258,14 +312,382 @@ Con este hallazgo concluímos el periodo
 	- Procedimientos: a seguir para que los alumnos aprendan los contenidos.
 	- Aptitudes: valorar la correcta ejecución, valoración del instrumento, cuidado del Centro, etc.
 
+## Requisitos previos
+
+	- Driver Arduino
+	- IDE Arduino
+	- Software de programación de alto nivel
+		- Visualino
+		- Arduinoblock (online)
+		- Scratch 4 Arduino
+		- mBlock
+
+	- Instalación y puesta a punto
+
 ## Actividades a desarrollar:
 
 	- establecer la secuencia de aprendizaje, de forma que las actividades estén relacionadas entre si.
 
-## Metodología:
+### Uso de los componentes
+
+#### Actividad "Conociendo el entrenador o shield"
+
+**Bloques relacionados**
+
+**Objetivos de etapa**
+
+**Criterios de evaluación**
+
+**Requisitos previos**
+
+**Descripción**
+
+Instalación y puesta a punto del Arduino junto con la Open Smart Rich Shield, conociendo e identificando cada una de los componentes de la placa.
+
+**Solución propuesta**
+
+![Imagen de la placa](https://picsum.photos/200)
+
+#### Actividad "LED"
+
+**Bloques relacionados**
+
+**Objetivos de etapa**
+
+Conocer qué es un LED
+
+**Criterios de evaluación**
+
+**Requisitos previos**
+
+**Descripción**
+
+- Que es un LED (actuador analógico y digital [solo lo usamos como digital])
+- Como se programa
+
+**Solución propuesta**
+
+![Imagen de la placa](https://picsum.photos/200)
+
+#### Actividad "Pulsador"
+
+**Bloques relacionados**
+
+**Objetivos de etapa**
+
+Conocer que es un pulsador
+
+**Criterios de evaluación**
+
+**Requisitos previos**
+
+**Descripción**
+
+- Que es un pulsador (sensor digital)
+- Como se programa
+
+**Solución propuesta**
+
+![Imagen de la placa](https://picsum.photos/200)
+
+#### Actividad "Zumbador"
+
+**Bloques relacionados**
+
+**Objetivos de etapa**
+
+Aprender que es un zumbador
+
+**Criterios de evaluación**
+
+**Requisitos previos**
+
+**Descripción**
+
+- Que es un zumbador (actuador en pin digital)
+- Como se programa
+
+**Solución propuesta**
+
+![Imagen de la placa](https://picsum.photos/200)
+
+#### Actividad "Potenciómetro"
+
+**Bloques relacionados**
+
+**Objetivos de etapa**
+
+**Criterios de evaluación**
+
+**Requisitos previos**
+
+**Descripción**
+
+- Que es un potenciometro (sensor analógico)
+- Como se programa
+
+**Solución propuesta**
+
+![Imagen de la placa](https://picsum.photos/200)
+
+#### Actividad "Fotoresistencia o LDR"
+
+**Bloques relacionados**
+
+**Objetivos de etapa**
+
+**Criterios de evaluación**
+
+**Requisitos previos**
+
+**Descripción**
+
+- Que es una fotoresistencia, un sensor de luz (sensor analógico)
+- Como se programa
+
+**Solución propuesta**
+
+![Imagen de la placa](https://picsum.photos/200)
+
+#### Actividad "Termistor o NTC"
+
+**Bloques relacionados**
+
+**Objetivos de etapa**
+
+**Criterios de evaluación**
+
+**Requisitos previos**
+
+**Descripción**
+
+- Que es una termistor, un sensor de temperatura (sensor analógico)
+- Como se programa
+
+**Solución propuesta**
+
+![Imagen de la placa](https://picsum.photos/200)
+
+#### Actividad "Display 7 Segmentos" [avanzada]
+
+**Bloques relacionados**
+
+**Objetivos de etapa**
+
+**Criterios de evaluación**
+
+**Requisitos previos**
+
+**Descripción**
+
+- Que es una pantalla de 7 segmentos (se compone de varios LED)
+- Como funciona
+- Como se programa
+	- Como se incluye una librería
+
+**Solución propuesta**
+
+![Imagen de la placa](https://picsum.photos/200)
+
+#### Actividad "Componente DHT11" [avanzada]
+
+**Bloques relacionados**
+
+**Objetivos de etapa**
+
+**Criterios de evaluación**
+
+**Requisitos previos**
+
+**Descripción**
+
+**Solución propuesta**
+
+![Imagen de la placa](https://picsum.photos/200)
+
+#### Actividad "Receptor infrarrojos" [avanzada]
+
+**Bloques relacionados**
+
+**Objetivos de etapa**
+
+**Criterios de evaluación**
+
+**Requisitos previos**
+
+**Descripción**
+
+- Introducción a transmisores (actuadores) y receptores (sensores)
+- Como funciona
+- Como se programa
+	- Como se incluye una librería
+
+**Solución propuesta**
+
+![Imagen de la placa](https://picsum.photos/200)
+
+### Actividades básicas
+
+#### Actividad "Semáforo"
+
+**Bloques relacionados**
+
+**Objetivos de etapa**
+
+**Criterios de evaluación**
+
+**Requisitos previos**
+
+**Descripción**
+
+Extra:
+	- Añadir pulsador
+	- Añadir sonido intermitente cuando esta verde
+
+**Solución propuesta**
+
+![Imagen de la placa](https://picsum.photos/200)
+
+#### Actividad "Selector de luces"
+
+**Bloques relacionados**
+
+**Objetivos de etapa**
+
+**Criterios de evaluación**
+
+**Requisitos previos**
+
+**Descripción**
+
+Se trata de conmutar los leds según la posición del potenciómetro
+
+**Solución propuesta**
+
+![Imagen de la placa](https://picsum.photos/200)
+
+#### Actividad "Detector de luminosidad"
+
+**Bloques relacionados**
+
+**Objetivos de etapa**
+
+**Criterios de evaluación**
+
+**Requisitos previos**
+
+**Descripción**
+
+Detectar cuando se tape el arduino
+
+**Solución propuesta**
+
+![Imagen de la placa](https://picsum.photos/200)
+
+#### Actividad "Reproductor de sonidos"
+
+**Bloques relacionados**
+
+**Objetivos de etapa**
+
+**Criterios de evaluación**
+
+**Requisitos previos**
+
+**Descripción**
+
+Pulsar un botón y reproducir un sonido. La frecuencia la marcará el valor del potenciómetro
+
+**Solución propuesta**
+
+![Imagen de la placa](https://picsum.photos/200)
+
+### Actividades avanzadas
+
+#### Actividad "Reproducir de sonidos"
+
+**Bloques relacionados**
+
+**Objetivos de etapa**
+
+**Criterios de evaluación**
+
+**Requisitos previos**
+
+**Descripción**
+
+**Solución propuesta**
+
+![Imagen de la placa](https://picsum.photos/200)
+
+#### Actividad "Contador con pantalla"
+
+**Bloques relacionados**
+
+**Objetivos de etapa**
+
+**Criterios de evaluación**
+
+**Requisitos previos**
+
+**Descripción**
+
+**Solución propuesta**
+
+![Imagen de la placa](https://picsum.photos/200)
+
+#### Actividad "Caja de música"
+
+**Bloques relacionados**
+
+**Objetivos de etapa**
+
+**Criterios de evaluación**
+
+**Requisitos previos**
+
+**Descripción**
+
+**Solución propuesta**
+
+![Imagen de la placa](https://picsum.photos/200)
+
+#### Actividad "Caja de música por infrarrojos"
+
+**Bloques relacionados**
+
+**Objetivos de etapa**
+
+**Criterios de evaluación**
+
+**Requisitos previos**
+
+**Descripción**
+
+**Solución propuesta**
+
+![Imagen de la placa](https://picsum.photos/200)
+
+#### Actividad "Control de velocidad de canción"
+
+**Bloques relacionados**
+
+**Objetivos de etapa**
+
+**Criterios de evaluación**
+
+**Requisitos previos**
+
+**Descripción**
+
+**Solución propuesta**
+
+![Imagen de la placa](https://picsum.photos/200)
+
+## Metodología
 
 	- Cómo se va a enseñar
-	- Atencion a la diversidad
+	- Atención a la diversidad
 
 ## Recursos materiales:
 
@@ -281,6 +703,14 @@ Con este hallazgo concluímos el periodo
 3. Identificar sistemas automáticos de uso cotidiano. Comprender y describir su funcionamiento. CMCT, CD, SIEP, CAA, CCL.
 4. Elaborar un programa estructurado para el control de un prototipo. CMCT, CD, SIEP. CAA
 
+**Estándares de aprendizaje**
+
+ 1.1. Desarrolla algoritmos que permitan resolver problemas aritméticos sencillos en un entorno de programación gráfico.
+ 2.1. Identificar y corregir fallos típicos en un programa informático sencillo.
+ 3.1. Identificar los elementos básicos de un sistema automático de uso cotidiano.
+ 4.1. Escribe programas que incluyan bucles de programación para solucionar problemas sencillos, utilizando la programación gráfica.
+
+
 	- Procedimientos de evaluación
 	- Herramientas de evaluación
 
@@ -295,7 +725,7 @@ Con este hallazgo concluímos el periodo
 
 	- En los primeros apartados del trabajo, en el estado del arte, se han mostrado unas pinceladas de las nuevas corrientes tecnológicas, todas confluyen bajo un mismo concepto, las comunicaciones entre distintos dispositivos. Se habla de domótica, Internet of Things (IoT), SmartCities, Industria 4.0; Todas estas tendencias se resumen a dispositivos comunicados entre sí, cuya única diferencia es el contexto y su finalidad, pero con sus 3 elementos básicos: Comunicación, sensorización (recogida de datos) y actuación ().
 
-	- He aqui donde aparece Espduino, una alternativa a Arduino que ha sido diseñada y adaptada para ser utilizado con la misma simplicidad, y que aporta, de base, las comunicaciones WiFi y Bluetooh. Esta nueva placa funciona con el microcontrolador ESP-32.
+	- He aqui donde aparece Espduino, una alternativa a Arduino que ha sido diseñada y adaptada para ser utilizado con la misma simplicidad, y que aporta, de base, las comunicaciones WiFi y Bluetooth. Esta nueva placa funciona con el microcontrolador ESP-32.
 
 ## Conclusiones finales
 
