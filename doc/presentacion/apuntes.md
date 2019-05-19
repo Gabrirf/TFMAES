@@ -27,3 +27,14 @@
 - Mostrar comparativa de Software de desarrollo de Arduino
 - Mostrar comparativa de Arduino y Espduino
 - Mostrar comparativa de Shield con otras Shields
+
+
+- El blog y canal de youtube del joven que trabaja con la OSRS, empezó en Mayo 2019
+- Pagina web de grupo tecnologia la arboleda
+- Feria de robotica malaga
+
+
+		- Visualino --> Arduino puro
+		- Arduinoblock (online) --> Arduino puro (vitaminado)
+		- Scratch 4 Arduino --> Arduino junto PC: poco configurable
+		- mBlock --> Arduino junto PC: flexible

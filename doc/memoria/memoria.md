@@ -39,7 +39,7 @@ Ninguno de estos conceptos son nada nuevo, los sensores y actuadores llevan exis
 
 Es aquí donde se presenta la propuesta de enseñanza, descubrir cómo funcionan estos dispositivos (programación electrónica) y qué pueden llegar a hacer (sensores y actuadores), de una forma fácil, atractiva y visual.
 
-	* Presentacion del problema
+	* Presentación del problema
 	* Tendencias actuales
 	* Necesidad de dar más importancia a la programación y a las nuevas tendencias tecnológicas
 
@@ -69,9 +69,9 @@ A pesar de proponer una mejora didáctica, el trabajo que se expone es orientado
 
 Es por ello que se busca plantear una mejora en la didáctica, de forma teórica, con el objetivo de poner en práctica y hacer un posterior estudio si los resultados reales concuerdan con los propuestos.
 
-	- Justificar con el paso por las practicas detectando puntos debiles
+	- Justificar con el paso por las practicas detectando puntos débiles
 	- No he podido aplicarlo al TFM tipo B por la falta de tiempo (trimestre corto), pero se propone como tipo C
-	- Tras una investigacion didactica y analisis DAFO, hacer una propuesta de mejora
+	- Tras una investigación didáctica y análisis DAFO, hacer una propuesta de mejora
 
 # Estado del arte (principalmente didáctico)  ¡¡ guardar referencias !!
 
@@ -116,15 +116,32 @@ El hecho de que Arduino sea de código abierto, ha permitido que se expanda con 
 
 Una _shield_ es un circuito modular que se monta encima de otros circuitos, cuentan con el número de pines exactos de los que posee Arduino, distribuidos en las mimas posiciones, de manera que encajan a la perfección formando un solo bloque, tapando la parte superior del microcontrolador. Este módulo complejo suele ir orientado a una finalidad concreta, existen muchos tipos de shield `(*) Enumerar y mostrar imágenes` aportando una funcionalidad extra. [8]
 
-![Shield 1](https://picsum.photos/200)
-![Shield 2](https://picsum.photos/200)
-![Shield 3](https://picsum.photos/200)
-![Shield 4](https://picsum.photos/200)
+![Shield - para conexión Ethernet](../imagenes/ArduinoEthernetShield_R3_Front.jpg)
 
-Existen shield que tienen una funcionalidad única muy concreta `pantalla LCD, Simon dice, Comunicaciones, etc...`, otras en cambio, las llamadas Shield multifunción, están preparadas como un banco de pruebas, con múltiples funcionalidades y componentes de diversos tipos. `Mostrar shield multifuncion`.
+![Shield - Echidna Shield](../imagenes/echidnaShield.png)
+
+![Shield - pantalla táctil](../imagenes/shieldTactil.jpg)
+
+![Shield - juego "Simón dice"](../imagenes/SimondiceShield.jpg)
+
+![Shield - para conexión WiFi](../imagenes/WiFiShield.jpg)
+
+Existen shield que tienen una funcionalidad única muy concreta como las que se acaban de mostrar, otras en cambio, las llamadas Shield multifunción, están preparadas como un banco de pruebas, con múltiples funcionalidades y componentes de diversos tipos. Estas shield también son conocidas como _entrenadores_.
+
+![Shield - Open Smart Clock Shield](../imagenes/ShieldClock.png)
+
+![Shield - Edubasica](../imagenes/Shieldedubasica.jpg)
+
+![Shield - Multifunción](../imagenes/Shield-educativo-multifunción.jpg)
+
+![Shield - Multifunción](../imagenes/ShieldMulti.png)
+
 
 Buscando un objetivo didáctico generalizado, en el que probar muchos tipos de actuadores y sensores, estas shield multifunción aportan mucho valor al trabajo, el cual se centrará en la _Open Smart Rich Shield_ que tiene un buen aspecto visual y se compone de sensores y actuadores de sencillo pero de muy extendido uso, como pueden ser botones, pantallas, LED, altavoz Buzzer o un sensor de luz.
 
+![Open Smart Rich Shield - Delante](../imagenes/OSRS-front.jpg)
+
+![Open Smart Rich Shield - Detrás](../imagenes/OSRS-back.jpg)
 
 	- Que son las Shield de arduino
 	- Que tipos hay
@@ -242,13 +259,12 @@ Con este hallazgo concluímos el periodo ...
 ## Descripción: 
 
 	- tema o el nombre de la unidad didáctica
-	- conocimientos previos
 	- las actividades de motivación
-	- número de sesiones y el momento en el que se pondrá en práctica.
 
 ## Temporización:
 
 	- 2 bloques por trimestre --> 1 mes y medio (Medio trimestre)
+	- número de sesiones y el momento en el que se pondrá en práctica.
 
 ## Competencias
 
@@ -286,63 +302,90 @@ Con este hallazgo concluímos el periodo ...
 
 ## Objetivos de etapa
 
-	- establecer los objetivos didácticos para ver lo que los alumnos van a adquirir con esta unidad.
+### 1 Objetivos generales
 
-### Objetivos generales
+El Real Decreto 1105/2014, de 26 de diciembre, la Educación Secundaria Obligatoria contribuirá a desarrollar en los alumnos y las alumnas las capacidades que les permitan:
 
-	- Preguntar a Tutora
+1. Asumir responsablemente sus deberes, conocer y ejercer sus derechos en el respeto a los demás, practicar la tolerancia, la cooperación y la solidaridad entre las personas y grupos, ejercitarse en el diálogo afianzando los derechos humanos y la igualdad de trato y de oportunidades entre mujeres y hombres, como valores comunes de una sociedad plural y prepararse para el ejercicio de la ciudadanía democrática.
 
-### Objetivos generales del área de tecnología
+2. Desarrollar y consolidar hábitos de disciplina, estudio y trabajo individual y en equipo como condición necesaria para una realización eficaz de las tareas del aprendizaje y como medio de desarrollo personal.
 
-	- Preguntar a Tutora
+3. Valorar y respetar la diferencia de sexos y la igualdad de derechos y oportunidades entre ellos. Rechazar la discriminación de las personas por razón de sexo o por cualquier otra condición o circunstancia personal o social. Rechazar los estereotipos que supongan discriminación entre hombres y mujeres, así como cualquier manifestación de violencia contra la mujer.
 
-### Objetivos específicos de la tecnología de 3º ESO
+4. Fortalecer sus capacidades afectivas en todos los ámbitos de la personalidad y en sus relaciones con los demás, así como rechazar la violencia, los prejuicios de cualquier tipo, los comportamientos sexistas y resolver pacíficamente los conflictos.
 
-	- Preguntar a Tutora
+5. Desarrollar destrezas básicas en la utilización de las fuentes de información para, con sentido crítico, adquirir nuevos conocimientos. Adquirir una preparación básica en el campo de las tecnologías, especialmente las de la información y la comunicación.
 
-### Objetivos específicos de la unidad didáctica
+6. Concebir el conocimiento científico como un saber integrado, que se estructura en distintas disciplinas, así como conocer y aplicar los métodos para identificar los problemas en los diversos campos del conocimiento y de la experiencia.
 
-1. Instalar y configurar un dispositivo en un ordenador.
-2. Aprender a cargar un programa en Arduino.
-3. Identificar componentes de una placa electrónica.
+7. Desarrollar el espíritu emprendedor y la confianza en sí mismo, la participación, el sentido crítico, la iniciativa personal y la capacidad para aprender a aprender, planificar, tomar decisiones y asumir responsabilidades.
 
-## Contenidos de aprendizaje: 
+8. Comprender y expresar con corrección, oralmente y por escrito, en la lengua castellana y, si la hubiere, en la lengua cooficial de la Comunidad Autónoma, textos y mensajes complejos, e iniciarse en el conocimiento, la lectura y el estudio de la literatura.
 
-	- Contenidos: se sacan de los objetivos.
-	- Procedimientos: a seguir para que los alumnos aprendan los contenidos.
-	- Aptitudes: valorar la correcta ejecución, valoración del instrumento, cuidado del Centro, etc.
+9. Comprender y expresarse en una o más lenguas extranjeras de manera apropiada.
+
+### 2 Objetivos generales del área de tecnología
+
+La Orden de currículo establece, asimismo, que los objetivos Generales del área de Tecnología en la Educación Secundaria Obligatoria deben entenderse, como aportaciones que, desde el área, contribuyen a la consecución de los objetivos generales de la etapa, anteriormente expuestos.
+
+1. Abordar con autonomía y creatividad, individualmente y en grupo, problemas tecnológicos trabajando de forma ordenada y metódica para estudiar el problema, recopilar y seleccionar información procedente de distintas fuentes, elaborar la documentación pertinente, concebir, diseñar, planificar y construir objetos o sistemas que resuelvan el problema estudiado y evaluar su idoneidad desde distintos puntos de vista.
+
+2. Disponer de destrezas técnicas y conocimientos suficientes para el análisis, intervención, diseño, elaboración y manipulación de forma segura y precisa de materiales, objetos y sistemas tecnológicos.
+
+3. Analizar los objetos y sistemas técnicos para comprender su funcionamiento, conocer sus elementos y las funciones que realizan, aprender la mejor forma de usarlos y controlarlos y entender las condiciones fundamentales que han intervenido en su diseño y construcción.
+
+4. Expresar y comunicar ideas y soluciones técnicas, así como explorar su viabilidad y alcance utilizando los medios tecnológicos, recursos gráficos, la simbología y el vocabulario adecuados.
+
+5. Adoptar actitudes favorables a la resolución de problemas técnicos, desarrollando interés y curiosidad hacia la actividad tecnológica, analizando y valorando críticamente la investigación y el desarrollo tecnológico y su influencia en la sociedad, en el medio ambiente, en la salud y en el bienestar personal y colectivo.
+
+6. Comprender las funciones de los componentes físicos de un ordenador y dispositivos de proceso de información digitales, así como su funcionamiento y formas de conectarlos. Manejar con soltura aplicaciones y recursos TIC que permitan buscar, almacenar, organizar, manipular, recuperar, presentar y publicar información, empleando de forma habitual las redes de comunicación.
+7. Resolver problemas a través de la programación y del diseño de sistemas de control.
+8. Asumir de forma crítica y activa el avance y la aparición de nuevas tecnologías, incorporándolas al quehacer cotidiano.
+9. Actuar de forma dialogante, flexible y responsable en el trabajo en equipo para la búsqueda de soluciones, la toma de decisiones y la ejecución de las tareas encomendadas con actitud de respeto, cooperación, tolerancia y solidaridad.
+
+### 3 Objetivos específicos de la unidad didáctica
+
+1. Instalar y configurar la tarjeta controladora Arduino en un ordenador.
+2. Instalar y configurar el IDE de Arduino en el ordenador.
+3. Explotar recursos de Internet a través del navegador web.
+4. Identificar componentes de una placa electrónica.
+5. Comprender el funcionamiento de sensores y actuadores.
+6. Conocer y aplicar el uso de Arduino.
+7. Aprender a cargar un Firmware en Arduino.
+8. Conocer los elementos de un código de programación.
+9. Programar el controlador a través de la plataforma ArduinoBlocks.
+10. Conocer diversos algoritmos sencillos cotidianos.
+11. Identificar y manipular las partes de un código de programación.
 
 ## Requisitos previos
 
-	- Driver Arduino
-	- IDE Arduino
-	- Software de programación de alto nivel
-		- Visualino
-		- Arduinoblock (online)
-		- Scratch 4 Arduino
-		- mBlock
+1. Conocimientos sobre conceptos básicos informáticos.
+2. Conocimientos y manipulación de periféricos del ordenador.
+3. Conocimientos de instalación software en ordenador.
+4. Conocimientos básicos de navegación en Internet.
+5. Conocimientos básicos de electricidad y electrónica.
+6. Conocimientos sobre componentes electrónicos.
+7. Conocimientos básicos de lógica de programación.
 
-	- Instalación y puesta a punto
-
-## Actividades a desarrollar:
-
-	- establecer la secuencia de aprendizaje, de forma que las actividades estén relacionadas entre si.
+## Contenidos de aprendizaje:
 
 ### Uso de los componentes
 
 #### Actividad "Conociendo el entrenador o shield"
 
-**Bloques relacionados**
+**Bloques relacionados:** 1, 2, 4, 5 y 6
 
-**Objetivos de etapa**
+**Objetivos de etapa:** 1, 2, 3.1, 3.3, 3.4, 3.5, 3.6, 3.7 
 
-**Criterios de evaluación**
+**Criterios de evaluación:** `Aqui enumerar los objetivos`
 
 **Requisitos previos**
 
+
+
 **Descripción**
 
-Instalación y puesta a punto del Arduino junto con la Open Smart Rich Shield, conociendo e identificando cada una de los componentes de la placa.
+Instalación y puesta a punto del Arduino junto con la Open Smart Rich Shield, conociendo e identificando cada una de los componentes de la placa y grabando Firmware dado a Arduino.
 
 **Solución propuesta**
 
@@ -350,9 +393,9 @@ Instalación y puesta a punto del Arduino junto con la Open Smart Rich Shield, c
 
 #### Actividad "LED"
 
-**Bloques relacionados**
+**Bloques relacionados:** 1, 2, 4, 5 y 6
 
-**Objetivos de etapa**
+**Objetivos de etapa:** 1, 2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.9
 
 Conocer qué es un LED
 
@@ -371,9 +414,9 @@ Conocer qué es un LED
 
 #### Actividad "Pulsador"
 
-**Bloques relacionados**
+**Bloques relacionados:** 1, 2, 4, 5 y 6
 
-**Objetivos de etapa**
+**Objetivos de etapa:** 1, 2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.9
 
 Conocer que es un pulsador
 
@@ -392,9 +435,9 @@ Conocer que es un pulsador
 
 #### Actividad "Zumbador"
 
-**Bloques relacionados**
+**Bloques relacionados:** 1, 2, 4, 5 y 6
 
-**Objetivos de etapa**
+**Objetivos de etapa:** 1, 2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.9
 
 Aprender que es un zumbador
 
@@ -413,9 +456,9 @@ Aprender que es un zumbador
 
 #### Actividad "Potenciómetro"
 
-**Bloques relacionados**
+**Bloques relacionados:** 1, 2, 4, 5 y 6
 
-**Objetivos de etapa**
+**Objetivos de etapa:** 1, 2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.9
 
 **Criterios de evaluación**
 
@@ -432,9 +475,9 @@ Aprender que es un zumbador
 
 #### Actividad "Fotoresistencia o LDR"
 
-**Bloques relacionados**
+**Bloques relacionados:** 1, 2, 4, 5 y 6
 
-**Objetivos de etapa**
+**Objetivos de etapa:** 1, 2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.9
 
 **Criterios de evaluación**
 
@@ -451,9 +494,9 @@ Aprender que es un zumbador
 
 #### Actividad "Termistor o NTC"
 
-**Bloques relacionados**
+**Bloques relacionados:** 1, 2, 4, 5 y 6
 
-**Objetivos de etapa**
+**Objetivos de etapa:** 1, 2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.9
 
 **Criterios de evaluación**
 
@@ -470,9 +513,9 @@ Aprender que es un zumbador
 
 #### Actividad "Display 7 Segmentos" [avanzada]
 
-**Bloques relacionados**
+**Bloques relacionados:** 1, 2, 4, 5 y 6
 
-**Objetivos de etapa**
+**Objetivos de etapa:** 1, 2, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.9, 3.11
 
 **Criterios de evaluación**
 
@@ -491,9 +534,9 @@ Aprender que es un zumbador
 
 #### Actividad "Componente DHT11" [avanzada]
 
-**Bloques relacionados**
+**Bloques relacionados:** 1, 2, 4, 5 y 6
 
-**Objetivos de etapa**
+**Objetivos de etapa:** 1, 2, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.9, 3.11
 
 **Criterios de evaluación**
 
@@ -507,9 +550,9 @@ Aprender que es un zumbador
 
 #### Actividad "Receptor infrarrojos" [avanzada]
 
-**Bloques relacionados**
+**Bloques relacionados:** 1, 2, 4, 5 y 6
 
-**Objetivos de etapa**
+**Objetivos de etapa:** 1, 2, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.9, 3.11
 
 **Criterios de evaluación**
 
@@ -530,9 +573,9 @@ Aprender que es un zumbador
 
 #### Actividad "Semáforo"
 
-**Bloques relacionados**
+**Bloques relacionados:** 1, 2, 4, 5 y 6
 
-**Objetivos de etapa**
+**Objetivos de etapa:** 1, 2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10 3.11
 
 **Criterios de evaluación**
 
@@ -550,9 +593,9 @@ Extra:
 
 #### Actividad "Selector de luces"
 
-**Bloques relacionados**
+**Bloques relacionados:** 1, 2, 4, 5 y 6
 
-**Objetivos de etapa**
+**Objetivos de etapa:** 1, 2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10 3.11
 
 **Criterios de evaluación**
 
@@ -568,9 +611,9 @@ Se trata de conmutar los leds según la posición del potenciómetro
 
 #### Actividad "Detector de luminosidad"
 
-**Bloques relacionados**
+**Bloques relacionados:** 1, 2, 4, 5 y 6
 
-**Objetivos de etapa**
+**Objetivos de etapa:** 1, 2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10 3.11
 
 **Criterios de evaluación**
 
@@ -586,9 +629,9 @@ Detectar cuando se tape el arduino
 
 #### Actividad "Reproductor de sonidos"
 
-**Bloques relacionados**
+**Bloques relacionados:** 1, 2, 4, 5 y 6
 
-**Objetivos de etapa**
+**Objetivos de etapa:** 1, 2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10 3.11
 
 **Criterios de evaluación**
 
@@ -606,9 +649,9 @@ Pulsar un botón y reproducir un sonido. La frecuencia la marcará el valor del 
 
 #### Actividad "Reproducir de sonidos"
 
-**Bloques relacionados**
+**Bloques relacionados:** 1, 2, 4, 5 y 6
 
-**Objetivos de etapa**
+**Objetivos de etapa:** 1, 2, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10 3.11
 
 **Criterios de evaluación**
 
@@ -622,9 +665,9 @@ Pulsar un botón y reproducir un sonido. La frecuencia la marcará el valor del 
 
 #### Actividad "Contador con pantalla"
 
-**Bloques relacionados**
+**Bloques relacionados:** 1, 2, 4, 5 y 6
 
-**Objetivos de etapa**
+**Objetivos de etapa:** 1, 2, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10 3.11
 
 **Criterios de evaluación**
 
@@ -638,9 +681,9 @@ Pulsar un botón y reproducir un sonido. La frecuencia la marcará el valor del 
 
 #### Actividad "Caja de música"
 
-**Bloques relacionados**
+**Bloques relacionados:** 1, 2, 4, 5 y 6
 
-**Objetivos de etapa**
+**Objetivos de etapa:** 1, 2, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10 3.11
 
 **Criterios de evaluación**
 
@@ -654,9 +697,9 @@ Pulsar un botón y reproducir un sonido. La frecuencia la marcará el valor del 
 
 #### Actividad "Caja de música por infrarrojos"
 
-**Bloques relacionados**
+**Bloques relacionados:** 1, 2, 4, 5 y 6
 
-**Objetivos de etapa**
+**Objetivos de etapa:** 1, 2, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10 3.11
 
 **Criterios de evaluación**
 
@@ -670,13 +713,13 @@ Pulsar un botón y reproducir un sonido. La frecuencia la marcará el valor del 
 
 #### Actividad "Control de velocidad de canción"
 
-**Bloques relacionados**
+**Bloques relacionados:** 1, 2, 4, 5 y 6
 
-**Objetivos de etapa**
+**Objetivos de etapa:** 1, 2, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10 3.11
 
 **Criterios de evaluación**
 
-**Requisitos previos**
+**Requisitos previos** 
 
 **Descripción**
 
@@ -691,8 +734,22 @@ Pulsar un botón y reproducir un sonido. La frecuencia la marcará el valor del 
 
 ## Recursos materiales:
 
-	- indicar los diferentes recursos específicos que son necesarios para desarrollar la unidad didáctica paso a paso.
-	- Organización de espacio y tiempo: se recomienda indicar los aspectos concretos relacionados con la organización del espacio y el tiempo que requiere la unidad didáctica.
+- Recursos generales:
+	- Proyector
+	- Aula con ordenadores
+	- Necesario un ordenador por cada pareja de alumnos
+- Recursos por alumno:
+	- Arduino UNO
+	- Cable USB
+	- Shield Multifunción
+- Recursos software:
+	- Driver de Arduino
+	- IDE de Arduino
+	- Software de programación de alto nivel. Alternativas:
+		- Visualino
+		- Arduinoblock (online)
+		- Scratch 4 Arduino
+		- mBlock
 
 ## Evaluación: criterios e indicadores de la valoración de los aprendizajes de los alumnos
 
@@ -749,3 +806,14 @@ Pulsar un botón y reproducir un sonido. La frecuencia la marcará el valor del 
 # Bibliografía (libros/articulos/videos no referenciados)
 
 [100]: https://aprendiendoarduino.wordpress.com/
+
+
+
+TODO !!
+
+- El blog y canal de youtube del joven que trabaja con la OSRS, empezó en Mayo 2019
+- Pagina web de grupo tecnologia la arboleda
+- Feria de robotica malaga
+- Comparativa entre software
+- Comparativa entre Shields
+- 
