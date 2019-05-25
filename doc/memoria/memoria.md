@@ -10,6 +10,9 @@ header-includes:
 - Firmware:
 - Hardware:
 - Shield:
+- Sensor:
+- Actuador:
+- IDE: Entorno
 
 ## Palabras clave (keywords)
 
@@ -18,8 +21,6 @@ header-includes:
 # Introducción y Justificación.
 
 ## Contextualizacion
-
-	* Fin y tipo del trabajo
 
 El trabajo que se presenta a continuación, pretende dar a conocer los recursos didácticos que ofrece las herramientas de apoyo a los dispositivos conocidos como Arduino, que están actualmente en tendencia, con el fin de aportar una ayuda extra en la enseñanza de uno de los bloques existente en la asignatura de Tecnología, y en vista a otras que están surgiendo en los últimos tiempos.
 
@@ -39,28 +40,6 @@ Ninguno de estos conceptos son nada nuevo, los sensores y actuadores llevan exis
 
 Es aquí donde se presenta la propuesta de enseñanza, descubrir cómo funcionan estos dispositivos (programación electrónica) y qué pueden llegar a hacer (sensores y actuadores), de una forma fácil, atractiva y visual.
 
-	* Presentación del problema
-	* Tendencias actuales
-	* Necesidad de dar más importancia a la programación y a las nuevas tendencias tecnológicas
-
-## Detección de la problemática (Porqué me he decantado por este problema)
-
-Desde hace ya algún tiempo se conoce la necesidad de un cambio en la estructura de la enseñanza, todo debido a los rápidos cambios la forma de vivir con la entrada de la informática, cuya explosión se produjo con la entrada de los smartphones, que nos capacitó a transportar un dispositivo de cálculo avanzado casi las 24 horas de todos los días del año.
-
-Con estos cambios, surge la necesidad de nuevos conocimientos, y por ende, nuevas enseñanzas para preparar dicho saber. Es por ello que aparecen nuevos bloques en la asignatura de tecnología, que intentan hacer aparecer estos conocimientos en el temario, pero con poco protagonismo, manteniendo la misma estructura, apretando más en tiempo los contenidos a enseñar para poder abarcar todos lo que acontece a esta materia.
-
-El método actual de enseñanza de la programación en esta asignatura, es a través de bloques, con la animación de objetos visuales, como es el caso de Scratch. Cuando se pretende ir más allá, por tocar algo físico, que el alumno manipule con sus manos, es cuando entramos en el mundo Hardware. Este campo nos ofrece una infinidad de posibilidades, y es por ello habrá de buscar la manera más sencilla de abordar todas estas riquezas de las que disponemos.
-
-Aunque se detalle en otro apartado del trabajo, si es conveniente adelantar e ir entendiendo que es contraproducente exigir unos conocimientos previos para explicar un concepto nuevo, que no tiene que ver con este conocimiento requerido. Y que si bien no son complejos, pueden dificultar la adquisición de los que realmente se pretenden transmitir, esto es, concretamente, mezclar el montaje de un circuito junto con la programación de un microcontrolador que interactúe frente a él. Este trabajo busca lograr superar esta adversidad de querer utilizar todo el potencial sin obstaculizar el aprendizaje.
-
-Este trabajo da un apoyo a esta futura materia y didáctica que aún no está regularizada, pero que cada vez cobra más importancia.
-
-	* Por el tiempo ajustado para el bloque
-
-		- -que al bloque se le da muy poca importancia
-	* Porque simplifica la asimilación de conceptos, aislando la complejidad de un circuito, con la complejidad de la programación.
-
-
 ## Objetivo principal: presentar una propuesta basada en investigación
 
 La realización de las prácticas asociadas al máster de este trabajo estuvo contextualizada en una clase de 3º de la ESO, impartiendo el módulo 5 de la asignatura de Tecnología. Este trabajo nace de buscar mejorar la enseñanza en este tema.
@@ -69,13 +48,7 @@ A pesar de proponer una mejora didáctica, el trabajo que se expone es orientado
 
 Es por ello que se busca plantear una mejora en la didáctica, de forma teórica, con el objetivo de poner en práctica y hacer un posterior estudio si los resultados reales concuerdan con los propuestos.
 
-	- Justificar con el paso por las practicas detectando puntos débiles
-	- No he podido aplicarlo al TFM tipo B por la falta de tiempo (trimestre corto), pero se propone como tipo C
-	- Tras una investigación didáctica y análisis DAFO, hacer una propuesta de mejora
-
-# Estado del arte (principalmente didáctico)  ¡¡ guardar referencias !!
-
-> Pregunta: En que orden poner los apartados, tal como están, o pongo "educacion actual" despues de arduino y antes de shield???
+# Estado del arte
 
 ## Educación actual
 
@@ -98,23 +71,20 @@ Estos comportamientos pueden ser programados sin necesidad de ningún componente
 
 **¿Por qué Arduino?**
 
-Arduino nació de la idea de diseñar una herramienta para la construcción de prototipos de manera rápida y sencilla, orientado, principalmente, para estudiantes que no tuvieran experiencia en electrónica ni programación. Tan pronto como el equipo que lo desarrollaba comenzó a crecer, Arduino empezó a sufrir cambios para adaptarse a nuevos retos y proyectos.
+[6] Arduino nació de la idea de diseñar una herramienta para la construcción de prototipos de manera rápida y sencilla, orientado, principalmente, para estudiantes que no tuvieran experiencia en electrónica ni programación. Tan pronto como el equipo que lo desarrollaba comenzó a crecer, Arduino empezó a sufrir cambios para adaptarse a nuevos retos y proyectos.
 
 Todas las placas Arduino son completamente de código abierto, lo que permite a los usuarios adaptarlas a sus necesidades particulares. El software también es de código abierto y está creciendo a través de las contribuciones de los usuarios de todo el mundo. Todo este conjunto han dado lugar a la gran cantidad de recursos disponibles de forma gratuita y totalmente accesible.
 
 El hecho de que Arduino sea de código abierto, ha permitido que se expanda con gran rapidez, tanto a nivel de desarrollo, como a nivel comercial, pues debido a esta condición, los precios de este dispositivo y sus componentes son muy bajos. Y aunque originalmente surgió con intenciones didácticas y de investigación, actualmente lo utilizan todo tipo de personas en diferentes ámbitos: educativo, arte, programación, profesional o sólo por entretenimiento.
 
-	- Que es Arduino
-		Arduino is an open-source electronics platform based on easy-to-use hardware and software. It's intended for anyone making interactive projects. [6]
-	- Por qué Arduino
-		- Beneficios de Arduino
-		- Ya veremos otros competidores (al final contra el Espduino)
+![Arduino](../imagenes/arduino.png)
+![IDE Arduino](../imagenes/IDEArduino.png)
 
 ## Shields
 
 **¿Qué es una Shield?**
 
-Una _shield_ es un circuito modular que se monta encima de otros circuitos, cuentan con el número de pines exactos de los que posee Arduino, distribuidos en las mimas posiciones, de manera que encajan a la perfección formando un solo bloque, tapando la parte superior del microcontrolador. Este módulo complejo suele ir orientado a una finalidad concreta, existen muchos tipos de shield `(*) Enumerar y mostrar imágenes` aportando una funcionalidad extra. [8]
+Una _shield_ es un circuito modular que se monta encima de otros circuitos, cuentan con el número de pines exactos de los que posee Arduino, distribuidos en las mimas posiciones, de manera que encajan a la perfección formando un solo bloque, tapando la parte superior del microcontrolador. Este módulo complejo suele ir orientado a una finalidad concreta, existen muchos tipos de shield aportando una funcionalidad extra. [8] Se muestran algunos ejemplos a continuación:
 
 ![Shield - para conexión Ethernet](../imagenes/ArduinoEthernetShield_R3_Front.jpg)
 
@@ -126,7 +96,7 @@ Una _shield_ es un circuito modular que se monta encima de otros circuitos, cuen
 
 ![Shield - para conexión WiFi](../imagenes/WiFiShield.jpg)
 
-Existen shield que tienen una funcionalidad única muy concreta como las que se acaban de mostrar, otras en cambio, las llamadas Shield multifunción, están preparadas como un banco de pruebas, con múltiples funcionalidades y componentes de diversos tipos. Estas shield también son conocidas como _entrenadores_.
+Existen shield que tienen una funcionalidad única muy concreta como las que se acaban de mostrar, otras en cambio, las llamadas Shield multifunción, están preparadas como un banco de pruebas, con múltiples funcionalidades y componentes de diversos tipos. Estas shield también son conocidas como _entrenadores_, pues están orientadas a realizar pruebas y prototipos a través un mismo dispositivo genérico, es decir, a entrenar los conocimientos.
 
 ![Shield - Open Smart Clock Shield](../imagenes/ShieldClock.png)
 
@@ -136,16 +106,13 @@ Existen shield que tienen una funcionalidad única muy concreta como las que se 
 
 ![Shield - Multifunción](../imagenes/ShieldMulti.png)
 
-
 Buscando un objetivo didáctico generalizado, en el que probar muchos tipos de actuadores y sensores, estas shield multifunción aportan mucho valor al trabajo, el cual se centrará en la _Open Smart Rich Shield_ que tiene un buen aspecto visual y se compone de sensores y actuadores de sencillo pero de muy extendido uso, como pueden ser botones, pantallas, LED, altavoz Buzzer o un sensor de luz.
 
 ![Open Smart Rich Shield - Delante](../imagenes/OSRS-front.jpg)
 
 ![Open Smart Rich Shield - Detrás](../imagenes/OSRS-back.jpg)
 
-	- Que son las Shield de arduino
-	- Que tipos hay
-	- Funcionalidad nos aporta
+En los próximos apartados se detallarán en profundidad las características, funcionalidad y usos de este entrenador.
 
 ## Similares propuestas
 
@@ -158,17 +125,21 @@ Buscando un objetivo didáctico generalizado, en el que probar muchos tipos de a
 	- Que hay similar a lo que propongo y que han hecho otros
 	- De las placas, algo tecnológico
 
-# Planteamiento del problema.
+# Planteamiento del problema
 
-	- Porque el cambio del circuito a la práctica
-	- Justificacion 
-		- con el trimestre corto
-		- focus a la programacion
-		- simplicidad
+Desde hace ya algún tiempo se conoce la necesidad de un cambio en la estructura de la enseñanza, todo debido a los rápidos cambios la forma de vivir con la entrada de la informática, cuya explosión se produjo con la entrada de los smartphones, que nos capacitó a transportar un dispositivo de cálculo avanzado casi las 24 horas de todos los días del año.
 
-# Objeto de estudio.
+Con estos cambios, surge la necesidad de nuevos conocimientos, y por ende, nuevas enseñanzas para preparar dicho saber. Es por ello que aparecen nuevos bloques en la asignatura de tecnología, que intentan hacer aparecer estos conocimientos en el temario, pero con poco protagonismo, manteniendo la misma estructura, apretando más en tiempo los contenidos a enseñar para poder abarcar todos lo que acontece a esta materia.
 
-Lo siguientes datos se dan atendiendo a [5] la Orden del 14 de Julio de 2016 del Boletín Oficial de la Junta de Andalucía (BOJA).
+El método actual de enseñanza de la programación en esta asignatura, es a través de bloques, con la animación de objetos visuales, como es el caso de Scratch. Cuando se pretende ir más allá, por tocar algo físico, que el alumno manipule con sus manos, es cuando entramos en el mundo Hardware. Este campo nos ofrece una infinidad de posibilidades, y es por ello habrá de buscar la manera más sencilla de abordar todas estas riquezas de las que disponemos.
+
+Aunque se detalle en otro apartado del trabajo, si es conveniente adelantar e ir entendiendo que es contraproducente exigir unos conocimientos previos para explicar un concepto nuevo, que no tiene que ver con este conocimiento requerido. Y que si bien no son complejos, pueden dificultar la adquisición de los que realmente se pretenden transmitir, esto es, concretamente, mezclar el montaje de un circuito junto con la programación de un microcontrolador que interactúe frente a él. Este trabajo busca lograr superar esta adversidad de querer utilizar todo el potencial sin obstaculizar el aprendizaje.
+
+Este trabajo da un apoyo a esta futura materia y didáctica que aún no está regularizada, pero que cada vez cobra más importancia.
+
+# Fundamentación teórica
+
+Lo siguientes datos se dan atendiendo a la Orden del 14 de Julio de 2016 del Boletín Oficial de la Junta de Andalucía (BOJA).
 
 En la asignatura de Tecnología Aplicada de 1º de la ESO, existe un bloque de iniciación a la programación, orientado de manera gráfica y con el uso de programación con bloques
 
@@ -180,7 +151,7 @@ En la asignatura de Tecnología de 2º y 3º de la ESO se encuentran dos bloques
 
 > Bloque 6. Tecnologías de Información y la Comunicación.
 
-Analizando los contenidos de dichos bloques, se puede realizar un símil en relación a los contenidos que conciernen a este trabajo. En el bloque 5 se busca enseñar las bases de la programación: qué es un programa, qué son instrucciones, qué son los elementos de control, etc. para posteriormente, en el bloque 6, tener un ligero conocimiento de cómo funcionan las herramientas que se van a utilizar. Entre ellas, entra en contenido los periféricos, que podemos entender como unos dispositivos que intercambian información entre PC y periféricos frente a una actividad por parte de uno de los extremos. Que es, en un contexto distinto, lo que entendemos como sensores y actuadores.
+Analizando los contenidos de dichos bloques, se puede realizar un símil en relación a los contenidos que conciernen a este trabajo. En el bloque 5 se busca enseñar las bases de la programación: qué es un programa, qué son instrucciones, qué son los elementos de control, etc. para posteriormente, en el bloque 6, tener un ligero conocimiento de cómo funcionan las herramientas que se van a utilizar. Entre ellas, entra en contenido los periféricos (ratón, teclado, etc.), que podemos entender como unos dispositivos que intercambian información entre PC y los usuarios frente a una actividad por parte de uno de estos extremos. Que es, en un contexto distinto, lo que entendemos como sensores y actuadores.
 
 Buscando afianzar mejor estos términos, y llevar un poco más allá los conocimientos, buscamos desarrollar una parte del programa del bloque 5:
 
@@ -188,11 +159,9 @@ Buscando afianzar mejor estos términos, y llevar un poco más allá los conocim
 
 Se busca por tanto, mejorar el aprendizaje de los alumnos sobre programación y aplicación diversos sistemas, a través del uso de un entrenador o _shield_ que esté compuesto de sensores y actuadores sencillos, visuales y atractivos. No importa que sea un LED o una bombilla, un botón o muchos botones como en un teclado, una pantalla de 7 segmentos de 4 dígitos o una pantalla LCD como la del portátil; lo importante es ver que la información entra y sale del dispositivo.
 
-	- Plan de estudio actual
-	- Mejorar en el alumno el aprendizaje de la programación
-		* Porque el bloque es orientado a programación y sensores, no a circuitos
+# Preguntas de investigación
 
-# Preguntas de investigación.
+	- A que he dado respuestas en este trabajo
 
 	- ¿Cómo facilitar el aprendizaje de la programación?
 	- ¿Cómo motivar e interesar por la electrónica?
@@ -202,11 +171,11 @@ Se busca por tanto, mejorar el aprendizaje de los alumnos sobre programación y 
 		- Modulos
 		- Shield Multifunción
 
-# Objetivos.
+# Objetivos
 
-	- Desglosar objetivo principal y secundarios
+	- Desglosar objetivo principal en secundarios en lista 
 
-# Fundamentación teórica. (coger de la memoria de practicas)
+# Objeto de estudio
 
 	- Que bloques de enseñanza
 	- Gamificación y métodos didacticos
@@ -216,7 +185,7 @@ Se busca por tanto, mejorar el aprendizaje de los alumnos sobre programación y 
 
 	- Qué es programación 
 
-# Metodología y desarrollo de la investigación.
+# Metodología y desarrollo de la investigación
 
 La idea y desarrollo de esta investigación comienza en la realización de las prácticas asociadas a los estudios referentes a este Trabajo Fin de Máster, en las cuales se detectaron ciertas oportunidades de mejoras en la metodología didáctica que se aplicaba. Esta mejora se centra en eliminar aquellas dificultades que no forman parte del contenido del bloque a impartir, y que limitan a los alumnos a centrarse en la parte que se quiere enseñar.
 
@@ -232,29 +201,21 @@ Este bloque es el ya especificado en el apartado de objeto de estudio de este mi
 
 Una vez el problema ha sido detectado, se procede a realizar un estudio de la situación actual, esto es, buscar la situación actual de la educación y las últimas tendencias tecnológicas a través de noticias y artículos de investigación recientes.
 
-En este paso, se han encontrado noticias de los últimos avances en robótica y artículos que detallan cómo Arduino ha demostrado mejorar los resultados académicos en secundaria y la universidad `referenciar artículos`. Esto demuestra por un lado, la necesidad de dar a conocer estos conocimientos, y por otro lado, la viabilidad de aplicar esta enseñanza con la herramienta Arduino.
+En este paso, se han encontrado noticias de los últimos avances en robótica y artículos que detallan cómo Arduino ha demostrado mejorar los resultados académicos en secundaria y la universidad. Esto demuestra por un lado, la necesidad de dar a conocer estos conocimientos, y por otro lado, la viabilidad de aplicar esta enseñanza con la herramienta Arduino.
 
 Una vez en claro qué enseñar y cómo enseñarlo, se pasa a buscar soluciones a las debilidades actuales de esta enseñanza, a través de diferentes metodologías y herramientas que usar. Con esta búsqueda se encuentra los componentes llamados "shield" o escudos, que aportan el punto clave a esta dificultad: eliminar el montaje del circuito electrónico en la programación con Arduino. Y el estudio pasa a buscar qué tipos de shield existen y cuáles son de interés didáctico, encontrando así, las shield multifunción, que montan muchos y diversos componentes en un solo módulo compacto y de sencillo uso.
 
-Con este hallazgo concluímos el periodo ...
+Con este hallazgo concluimos el periodo de búsqueda de soluciones para dar paso al estudio y desarrollo de una unidad didáctica con las herramientas disponibles, tanto Software:
 
+- Visualino
+- mBlock
+- Scratch 4 Arduino
+- Snap 4 Arduino
+- ArduinoBlocks
 
+Como Hardware, a saber, las distintas shield que ya se han mostrado con anterioridad, y la escogida _Open Smart Rich Shield_ con la que se desarrollarán las actividades de ejemplo propuestas en esta unidad didáctica.
 
-	8.1 Breve justificación y por donde empezar
-		- Diagrama de flujo 
-		- Como si el que lo leyera no tiene ni idea 
-	8.2 Pasos que se han seguido para la investigación.
-		- Primero buscar noticias sobre el tema
-			- Recoger los conceptos claves y tendencias más actuales
-		- Qué hemos buscado, qué tema trata
-		- Tiempo durante el que se ha realizado la observación
-		- Qué preguntas buscamos resolver
-		- Curso de la investigación
-			- Donde se ha buscado
-			- Qué se ha encontrado
-			- Cómo se ha seleccionado
-
-# Desarrollo de la unidad didáctica (paso gordo)
+# Desarrollo de la unidad didáctica
 
 ## Descripción: 
 
@@ -304,7 +265,7 @@ Con este hallazgo concluímos el periodo ...
 
 ### 1 Objetivos generales
 
-El Real Decreto 1105/2014, de 26 de diciembre, la Educación Secundaria Obligatoria contribuirá a desarrollar en los alumnos y las alumnas las capacidades que les permitan:
+Se presentan los objetivos generales de la Educación Secundaria Obligatoria que aparecen en el Real Decreto 1105/2014, de 26 de diciembre, que son alcanzados a través de la unidad didáctica propuesta. Esta contribuirá a desarrollar en los alumnos y las alumnas las capacidades que les permitan:
 
 1. Asumir responsablemente sus deberes, conocer y ejercer sus derechos en el respeto a los demás, practicar la tolerancia, la cooperación y la solidaridad entre las personas y grupos, ejercitarse en el diálogo afianzando los derechos humanos y la igualdad de trato y de oportunidades entre mujeres y hombres, como valores comunes de una sociedad plural y prepararse para el ejercicio de la ciudadanía democrática.
 
@@ -344,6 +305,8 @@ La Orden de currículo establece, asimismo, que los objetivos Generales del áre
 9. Actuar de forma dialogante, flexible y responsable en el trabajo en equipo para la búsqueda de soluciones, la toma de decisiones y la ejecución de las tareas encomendadas con actitud de respeto, cooperación, tolerancia y solidaridad.
 
 ### 3 Objetivos específicos de la unidad didáctica
+
+En particular, en el desarrollo de esta unidad didáctica se establecen los siguientes objetivos:
 
 1. Instalar y configurar la tarjeta controladora Arduino en un ordenador.
 2. Instalar y configurar el IDE de Arduino en el ordenador.
@@ -753,7 +716,9 @@ Pulsar un botón y reproducir un sonido. La frecuencia la marcará el valor del 
 
 ## Evaluación: criterios e indicadores de la valoración de los aprendizajes de los alumnos
 
-**Criterios de evaluación** Según el BOJA
+Según la Orden del 14 de Julio de 2016 del Boletín Oficial de la Junta de Andalucía, se establecen:
+
+**Criterios de evaluación**
 
 1. Conocer y manejar un entorno de programación distinguiendo sus partes más importantes y adquirir las habilidades y los conocimientos necesarios para elaborar programas informáticos sencillos utilizando programación gráfica por bloques de instrucciones. CD, CMCT, CAA, CCL, SIEP.
 2. Analizar un problema y elaborar un diagrama de flujo y programa que lo solucione. CMCT, CD, SIEP, CAA.
@@ -767,9 +732,13 @@ Pulsar un botón y reproducir un sonido. La frecuencia la marcará el valor del 
  3.1. Identificar los elementos básicos de un sistema automático de uso cotidiano.
  4.1. Escribe programas que incluyan bucles de programación para solucionar problemas sencillos, utilizando la programación gráfica.
 
+**Procedimiento de evaluación**
 
-	- Procedimientos de evaluación
-	- Herramientas de evaluación
+La evaluación de cada una de las actividades será regida por los siguientes criterios:
+
+1. Desarrolla la actividad guiada correctamente.
+2. Realiza satisfactoriamente una modificación de la actividad propuesta como ejercicio.
+3. Elabora un nuevo comportamiento o algoritmo de su propia invención aplicando los conocimientos adquiridos.
 
 # Presentación y discusión de los resultados.
 
@@ -794,14 +763,39 @@ Pulsar un botón y reproducir un sonido. La frecuencia la marcará el valor del 
 
 # Referencias (tanto articulos como videos ...)
 
+`Ejemplo de cita`
+
+Con mas de dos autores : et.al
+
+Como se comenta en (Andres Góngora et.al, _2013_)
+
+En el trabajo presentado por (Andrés Góngora et.al, _2013_)
+
+
 [1]: https://www.letraslibres.com/espana-mexico/revista/la-nueva-era-la-revolucion-las-maquinas
 [2]: https://www.elconfidencial.com/alma-corazon-vida/2019-04-10/andres-oppenheimer-trabajo-robots-inteligencia_1930542/
 [3]: https://elpais.com/elpais/2019/03/22/eps/1553279261_790802.html
 [4]: https://computerhoy.com/noticias/tecnologia/ya-quiosco-numero-535-computer-hoy-395523
-[5]: https://www.adideandalucia.es/normas/ordenes/Orden14julio2016CurriculoESO.pdf
+[5]: https://www.adideandalucia.es/normas/ordenes/Orden14julio2016CurriculoESO.pdf (Orden del 14 de Julio de 2016 del Boletín Oficial de la Junta de Andalucía (BOJA))
 [6]: https://www.arduino.cc
 [7]: http://www.edu.xunta.gal/eduga/1236/proxeccions/programacion-visual-para-arduino-aplicacion-na-aula-tecnoloxia
 [8]: https://aprendiendoarduino.wordpress.com/2015/03/23/shields-para-arduino/
+## Páginas web
+
+- Apellido/s, N.N. (Año). Título de la página Web. Recuperado el Día de Mes del Año, de [http://www...]()
+
+## Artículos
+
+- Apellido, N. (Año). Título del trabajo: subtítulo del trabajo (Tipo de trabajo). Recuperado de [http://www.xxxxxxxx]()
+- Apellido, N. (Año). Título del trabajo: subtítulo del trabajo (Trabajo Fin de Grado/Master). Recuperado de [http://www.xxxxxxxx]()
+
+## Imágenes
+
+- EchidnaTeam, 2019. Echidna Shield [Fotografía]. Recuperada de [http://echidna.es/]()
+
+## Vídeos
+
+- Productor. (Año). Título del vídeo [Vídeo]. Disponible en [http://www]()
 
 # Bibliografía (libros/articulos/videos no referenciados)
 
