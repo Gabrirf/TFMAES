@@ -175,16 +175,6 @@ Se busca por tanto, mejorar el aprendizaje de los alumnos sobre programación y 
 
 	- Desglosar objetivo principal en secundarios en lista 
 
-# Objeto de estudio
-
-	- Que bloques de enseñanza
-	- Gamificación y métodos didacticos
-	- Contextualizar la didactica
-		- Competencias
-		- Objetivos...
-
-	- Qué es programación 
-
 # Metodología y desarrollo de la investigación
 
 La idea y desarrollo de esta investigación comienza en la realización de las prácticas asociadas a los estudios referentes a este Trabajo Fin de Máster, en las cuales se detectaron ciertas oportunidades de mejoras en la metodología didáctica que se aplicaba. Esta mejora se centra en eliminar aquellas dificultades que no forman parte del contenido del bloque a impartir, y que limitan a los alumnos a centrarse en la parte que se quiere enseñar.
@@ -214,6 +204,13 @@ Con este hallazgo concluimos el periodo de búsqueda de soluciones para dar paso
 - ArduinoBlocks
 
 Como Hardware, a saber, las distintas shield que ya se han mostrado con anterioridad, y la escogida _Open Smart Rich Shield_ con la que se desarrollarán las actividades de ejemplo propuestas en esta unidad didáctica.
+
+# Objeto de estudio
+
+	- Que es programación
+	- Que son sensores y actuadores
+	- Hablar sobre Open Smart Rich Shield
+		- Componentes
 
 # Desarrollo de la unidad didáctica
 
