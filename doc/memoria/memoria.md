@@ -78,6 +78,7 @@ Todas las placas Arduino son completamente de código abierto, lo que permite a 
 El hecho de que Arduino sea de código abierto, ha permitido que se expanda con gran rapidez, tanto a nivel de desarrollo, como a nivel comercial, pues debido a esta condición, los precios de este dispositivo y sus componentes son muy bajos. Y aunque originalmente surgió con intenciones didácticas y de investigación, actualmente lo utilizan todo tipo de personas en diferentes ámbitos: educativo, arte, programación, profesional o sólo por entretenimiento.
 
 ![Arduino](../imagenes/arduino.png)
+
 ![IDE Arduino](../imagenes/IDEArduino.png)
 
 ## Shields
