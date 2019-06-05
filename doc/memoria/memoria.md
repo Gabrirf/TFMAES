@@ -7,10 +7,10 @@ header-includes:
 # Conceptos
 
 - Software:
-- Firmware:
+- Firmware: Conjunto de instrucciones grabadas en una memoria no volátil que controla los circuitos eléctricos de un dispositivo.
 - Hardware:
 - Shield:
-- Sensor:
+- Sensor: Dispositivo que capta magnitudes físicas u otras alteraciones de su entorno.
 - Actuador:
 - IDE: Entorno
 
