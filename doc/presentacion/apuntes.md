@@ -41,4 +41,8 @@
 
 
 
-		•	El blog y canal de youtube del joven que trabaja con la OSRS, empezó en Mayo 2019
+•	El blog y canal de youtube del joven que trabaja con la OSRS, empezó en Mayo 2019
+•	Pagina web de grupo tecnologia la arboleda
+•	Feria de robotica malaga
+•	Comparativa entre software
+•	Comparativa entre Shields
